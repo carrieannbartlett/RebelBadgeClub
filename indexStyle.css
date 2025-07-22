@@ -4,6 +4,12 @@
   --rebelPurple: #74174d;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--rebelBlue);
   text-align: center;
@@ -18,8 +24,6 @@ ul {
   font-weight: 500;
   width: 100%;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: var(--rebelPink);
 }
@@ -92,10 +96,6 @@ section {
 
 #wild {
   color: maroon;
-}
-
-h1, h2 {
-    margin: 0;
 }
 
 h1 {
