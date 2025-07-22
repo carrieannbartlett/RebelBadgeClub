@@ -1,0 +1,90 @@
+:root {
+	--rebelBlue: #98cee3;
+	--rebelPink: #f7ceeb;
+	--rebelPurple: #74174d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+	background-color: slateblue;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+
+/* Header styling */
+
+header {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+img {
+	float: left;
+	border-radius: 50%;
+	background-color: mediumpurple;
+	width: 100px;
+    padding: 2px;
+    margin: 20px;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+h1 {
+    margin-top:20px;
+    font-size: 3rem;
+}
+
+
+/* Main styling */
+
+section {
+	background-color: white;
+	color: black;
+    margin: 10px;
+    height: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    display: grid;
+}
+
+.clause {
+    width: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+    padding: 10px;
+}
+
+.number {
+    font-size: 5rem;
+    padding: 10px;
+    color: mediumpurple;
+    font-weight: 800;
+    font-family: "Tulpen One", sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: end;
+}
+
+footer {
+    text-align: center;   
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+ 
+}
+.credit {
+    display: none;
+}
