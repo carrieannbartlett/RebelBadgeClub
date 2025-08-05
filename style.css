@@ -5,7 +5,7 @@
 
 body {
     background-color: var(--primary-bg);
-	color: white;
+	color: var(--accent-color2);
 	font-family: "Roboto", sans-serif;
 }
 
@@ -34,7 +34,7 @@ header {
     grid-row: span 3;
 }
 
-img {
+img.icon {
     background-color: var(--accent-color);
 	width: 100px;
     height: 100px;
@@ -122,4 +122,56 @@ footer a {
 }
 .credit {
     display: none;
+}
+
+/* Styling of the monthly badges */
+
+.item1 {
+    background-color: var(--accent-color2);
+    color: white;
+}
+
+.item2 {
+    background-color: var(--accent-color);
+    color: black;
+}
+
+.monthly section {
+    min-height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* Styling of popup images */
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    z-index: 100; /*make sure its on top*/
+    justify-content: center;
+    align-items: center;
+}
+
+#popup img {
+    max-width: 80vw;
+    max-height: 80vh;
+    border-radius: 8px;
+}
+
+.popupHidden {
+    display: none;
+}
+
+.popupVisible {
+    display: flex;
 }

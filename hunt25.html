@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>camper</title>
+		<link rel="icon" type="image/png" href="./images/hunt.png" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" />
+		<link href="https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap" rel="stylesheet" />
+		<style>
+			:root {
+				--primary-bg: floralwhite;
+				--accent-color: orchid;
+				--accent-color2: indigo;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="icon-circle">
+				<img class="icon" src="./images/hunt.png" alt="Icon of magnifying glass" />
+			</div>
+			<h1>SCAVENGER HUNT 2025</h1>
+			<h2></h2>
+			<h3>FInd and take new photos (not screenshots, not old photos) of as many of the following as you can!</h3>
+			<h3>Items marked * are mandatory for super scavenger</h3>
+			<h3>Items marked ** must to found, not made by you</h3>
+		</header>
+
+		<main class="monthly">
+			<!-- This is the popup image -->
+			<div id="popup" class="popupHidden">
+				<img id="popupImage" src="" />
+			</div>
+
+			<section class="item1">
+				<p>A fortune-telling fish in action</p>
+			</section>
+			<section class="item2" data-image="./images/hunt25/macaroni.jpg">
+				<p>A sealed bag of gluten free macaroni</p>
+			</section>
+			<section class="item1">
+				<p>A wax seal (the result)**</p>
+			</section>
+			<section class="item2">
+				<p>A golden duck (object, not cricket result)</p>
+			</section>
+			<section class="item1">
+				<p>The smallest windmill you can find (smaller than your hand for SS)**</p>
+			</section>
+			<section class="item2">
+				<p>A t-rex monopoly token</p>
+			</section>
+			<section class="item1"  data-image="./images/hunt25/SIM.jpg">
+				<p>A tool for opening the SIM compartment of a phone</p>
+			</section>
+			<section class="item2">
+				<p>An animal made from chocolate (not a bunny)**</p>
+			</section>
+			<section class="item1"  data-image="./images/hunt25/magnifying.jpg">
+				<p>A round magnifying glass</p>
+			</section>
+			<section class="item2">
+				<p>A real, live man wearing a monocle</p>
+			</section>
+			<section class="item1">
+				<p>A tattoo of a toadstool</p>
+			</section>
+			<section class="item2">
+				<p>A bee in a bonnet (be creative)</p>
+			</section>
+			<section class="item1">
+				<p>A green-eyed monster**</p>
+			</section>
+			<section class="item2">
+				<p>The oldest grave in your nearest graveyard</p>
+			</section>
+			<section class="item1"  data-image="./images/hunt25/phone.jpg">
+				<p>The oldest mobile phone you can find (must be more than 15 years for SS)</p>
+			</section>
+			<section class="item2">
+				<p>A chocolate wrapper for a bar which is no longer available to buy**</p>
+			</section>
+			<section class="item1">
+				<p>A sausage dog smaller than a sausage (for scale included in photo)**</p>
+			</section>
+			<section class="item2">
+				<p>You and another rebel, holding two different volumes of the badge book</p>
+			</section>
+			<section class="item1">
+				<p>A postcard from a fellow rebel sent and received this month*</p>
+			</section>
+			<section class="item2">
+				<p>A book with a character with your first name</p>
+			</section>
+			<section class="item1">
+				<p>A naughty or rude candle**</p>
+			</section>
+			<section class="item2" data-image="./images/hunt25/locket.jpg">
+				<p>A locket containing a photograph</p>
+			</section>
+			<section class="item1">
+				<p>A pub over 100 years old (evidenced by signage on site)</p>
+			</section>
+			<section class="item2"  data-image="./images/hunt25/dragon.jpg">
+				<p>A dragon, somewhere it shouldn't be</p>
+			</section>
+			<section class="item1">
+				<p>A 'Claudia Winkelman' like wig on a manequin head</p>
+			</section>
+			<section class="item2"  data-image="./images/hunt25/coins.jpg">
+				<p>Five coins of the same value, from five consecutive years</p>
+			</section>
+			<section class="item1">
+				<p>A newspaper dated Wednesday August 13th 2025*</p>
+			</section>
+			<section class="item2">
+				<p>(Just) a pair of wings</p>
+			</section>
+			<section class="item1">
+				<p>Something you shouldn't find in a jelly, inside a jelly (be creative)</p>
+			</section>
+		</main>
+		<footer>
+			<p><a href="index.html">HOME</a></p>
+			<a class="credit" href="https://www.flaticon.com/free-icons/search" title="search icons"
+				>Search icons created by Freepik - Flaticon</a
+			>
+		</footer>
+
+		<script src="./popup.js"></script>
+	</body>
+</html>
