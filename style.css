@@ -150,7 +150,7 @@ footer a {
 /* Styling of popup images */
 
 #popup {
-    position: fixed;
+    position: fixed; /*This stuff is to make the image centre of the screen*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -160,6 +160,8 @@ footer a {
     z-index: 100; /*make sure its on top*/
     justify-content: center;
     align-items: center;
+    display: flex; /*this is to put the caption underneath*/
+    flex-direction: column;
 }
 
 #popup img {
@@ -168,8 +170,15 @@ footer a {
     border-radius: 8px;
 }
 
+#popupCaption {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 90%;
+}
+
 .popupHidden {
-    display: none;
+    display: none !important;
 }
 
 .popupVisible {
