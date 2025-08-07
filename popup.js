@@ -3,14 +3,12 @@ const popupImage = document.getElementById("popupImage");
 const popupCaption = document.getElementById("popupCaption");
 
 function showPopup() {
-    popup.classList.add("popupVisible");
-    popup.classList.remove("popupHidden");
+    popup.classList.add("visible");
 }
 
 function hidePopup() {
     console.log("hide triggered");
-  popup.classList.remove("popupVisible");
-  popup.classList.add("popupHidden")
+  popup.classList.remove("visible");
 }
 
 document.querySelectorAll("section").forEach(section => {

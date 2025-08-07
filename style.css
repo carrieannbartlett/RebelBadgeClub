@@ -160,7 +160,7 @@ footer a {
     z-index: 100; /*make sure its on top*/
     justify-content: center;
     align-items: center;
-    display: flex; /*this is to put the caption underneath*/
+    display: none; /*this is to put the caption underneath, is controlled by js*/
     flex-direction: column;
 }
 
@@ -177,10 +177,6 @@ footer a {
     max-width: 90%;
 }
 
-.popupHidden {
-    display: none !important;
-}
-
-.popupVisible {
+#popup.visible {
     display: flex;
 }
