@@ -111,7 +111,7 @@ main {
 
 .clauseSection {
     background-color: var(--accent-color);
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
 }
 
 .clauseSection h1 {
@@ -122,7 +122,7 @@ main {
 
 .clauseSection p {
     color: black;
-    padding: 0px 0px 0px 40px;
+    padding: 0px 40px 0px 40px;
 }
 
 .clauseDetails {
