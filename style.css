@@ -133,6 +133,7 @@ main {
     min-height: 120px;
     margin: 10px auto;
     padding: 10px 10px 10px 40px;
+    border-radius: 10px;
 }
 
 h4 {
